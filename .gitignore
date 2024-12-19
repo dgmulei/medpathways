@@ -54,10 +54,21 @@ url_*.log
 schools/*/crawler_results/
 schools/*/raw_content/
 schools/*/processed_data/
+schools/*/raw_data/
 schools/*/validation/
 schools/*/logs/
 schools/*/fetch_logs/
 schools/*/crawler_logs/
 schools/*/processor_logs/
+schools/*/json/
+mt_sinai_md_program.json
+mt-sinai_urls
+unc_urls.json
+taxonomy.json
 *.html
 demo_output.json
+
+# Keep essential config files
+!requirements.txt
+!package.json
+!tsconfig.json
