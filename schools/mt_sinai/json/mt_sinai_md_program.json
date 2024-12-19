@@ -1,0 +1,240 @@
+{
+  "institutions": [
+    {
+      "institution_name": "Icahn School of Medicine at Mount Sinai",
+      "location": "New York, NY",
+      "website": "https://icahn.mssm.edu",
+      "contact_information": {
+        "admissions_office_address": "1 Gustave L. Levy Place, Box 1002, New York, NY 10029",
+        "phone_number": "212-241-6696",
+        "email_address": "admissions@mssm.edu"
+      },
+      "mission_statement": "At the Icahn School of Medicine at Mount Sinai, we transform medicine by embracing bold thinking, social justice, and breakthrough science. We provide the most progressive and thoughtful education within a collaborative learning atmosphere, supporting our students as true partners in biomedical and social progress.",
+      "diversity_stats": {
+        "underrepresented_students_percentage": "Not published",
+        "international_students_percentage": "Not published",
+        "gender_distribution": {
+          "male": "Not published",
+          "female": "Not published",
+          "non_binary_or_other": "Not published"
+        },
+        "ethnic_distribution": {
+          "white": "Not published",
+          "asian": "Not published",
+          "black_or_african_american": "Not published",
+          "hispanic_or_latino": "Not published",
+          "native_american_or_alaskan_native": "Not published",
+          "native_hawaiian_or_pacific_islander": "Not published",
+          "other_or_unknown": "Not published"
+        },
+        "first_generation_students_percentage": "Not published",
+        "lgbtq_representation": {
+          "self_identified_percentage": "Not published",
+          "resources_available": [
+            "Commitment to diversity and inclusion",
+            "Support for LGBTQ+ students through holistic admissions process",
+            "Anti-discrimination policies and practices"
+          ]
+        }
+      },
+      "diversity_and_inclusion_initiatives": {
+        "description": "As a national leader in the holistic review of candidates, we recognize diversity in all realms as a driver for excellence in medicine and research. We conduct holistic reviews of applicants in full compliance with the law, maintaining a rigorous commitment to diversity, equity, inclusion, and anti-racism.",
+        "resources": [
+          "Commitment to diversity, equity, inclusion, and anti-racism",
+          "Holistic review of applicants",
+          "Support for underrepresented minorities in medicine",
+          "Consideration of COVID-19 impact on applications",
+          "Equitable process considering each applicant's unique journey",
+          "Dedicated support for diverse student populations",
+          "Integration of health equity into curriculum"
+        ]
+      },
+      "programs": [
+        {
+          "program_name": "Doctor of Medicine (MD)",
+          "program_type": "MD",
+          "program_website": "https://icahn.mssm.edu/education/admissions/md-program",
+          "application_deadlines": {
+            "amcas_application_deadline": "October 1",
+            "secondary_application_deadline": "Sent upon AMCAS verification",
+            "interview_dates": "September - February",
+            "decision_release_dates": "January - March for acceptances, March for waitlist"
+          },
+          "application_requirements": {
+            "prerequisite_coursework": [
+              {
+                "subject": "Biology",
+                "required": true,
+                "credits": 8,
+                "lab_required": true,
+                "recommended_courses": [],
+                "course_format": {
+                  "online_accepted": false,
+                  "community_college_accepted": true,
+                  "ap_credits_accepted": true
+                },
+                "recency_requirement": "Recommended within 5 years prior to applying",
+                "additional_notes": "AP credit accepted with advanced science coursework"
+              },
+              {
+                "subject": "Chemistry",
+                "required": true,
+                "credits": 16,
+                "lab_required": true,
+                "recommended_courses": ["Biochemistry"],
+                "course_format": {
+                  "online_accepted": false,
+                  "community_college_accepted": true,
+                  "ap_credits_accepted": true
+                },
+                "recency_requirement": null,
+                "additional_notes": "Includes General Chemistry (1 year) and Organic Chemistry (1 semester) and Biochemistry (1 semester). AP credit accepted with advanced science coursework."
+              },
+              {
+                "subject": "Physics",
+                "required": true,
+                "credits": 4,
+                "lab_required": false,
+                "course_format": {
+                  "online_accepted": false,
+                  "community_college_accepted": true,
+                  "ap_credits_accepted": true
+                },
+                "additional_notes": "One semester required. AP credit may be used to fulfill requirement."
+              },
+              {
+                "subject": "Mathematics",
+                "required": true,
+                "credits": 3,
+                "recommended_courses": ["Statistics", "Biostatistics"],
+                "course_format": {
+                  "online_accepted": true,
+                  "community_college_accepted": true,
+                  "ap_credits_accepted": true
+                },
+                "recency_requirement": null,
+                "additional_notes": "One semester required"
+              },
+              {
+                "subject": "English or Writing-Intensive",
+                "required": true,
+                "credits": 6,
+                "course_format": {
+                  "online_accepted": true,
+                  "community_college_accepted": true,
+                  "ap_credits_accepted": true
+                },
+                "additional_notes": "English intensive writing courses required"
+              }
+            ],
+            "gpa_policies": {
+              "minimum_grade": "C",
+              "pass_fail_accepted": true,
+              "additional_notes": "Pre-requisite courses completed at community college level or online format considered case-by-case. Laboratory sciences should not be taken online. Strongly preferred that applicants complete courses on-site/in-person."
+            },
+            "breadth_of_education": {
+              "diversity_in_courses": true,
+              "examples": [
+                "Sociology",
+                "Public Health",
+                "Political Science",
+                "Global Health",
+                "Bioethics",
+                "Urban Studies",
+                "History",
+                "Economics"
+              ],
+              "additional_notes": "Encouraged to complete coursework in social determinants of health and disparities in healthcare outcomes"
+            },
+            "prerequisite_deficiencies": {
+              "policies_for_gaps": "Students may apply with one or two premedical requirements missing, but completion is required for enrollment",
+              "examples": [
+                "Additional higher-level courses at four-year accredited institution recommended if prerequisites completed at community college",
+                "Additional US coursework recommended for international students"
+              ]
+            },
+            "standardized_tests": {
+              "mcat": {
+                "required": true,
+                "average_score": "Not published",
+                "minimum_score": "Not specified",
+                "recency_requirement": "Within 5 years of application cycle"
+              }
+            },
+            "letters_of_recommendation": {
+              "number_required": 3,
+              "type": "Committee letter or packet of letters preferred",
+              "specific_requirements": "Letters should be from people who can speak to passion for medicine, intellectual journey - research mentors, professional/service supervisors, professors, or clinical preceptors. Three to six individual letters if no pre-health advisor/committee."
+            },
+            "personal_statement": {
+              "prompt": "AMCAS personal statement required",
+              "word_limit": "5300 characters"
+            },
+            "extracurricular_activities": {
+              "clinical_experience": {
+                "recommended_hours": "Not specified",
+                "description": "Clinical exposure required and evaluated as part of holistic review process. Can include shadowing, patient interaction, or clinical volunteering."
+              },
+              "research_experience": {
+                "recommended": true,
+                "description": "Research experience recommended and valued as part of scholarly endeavors"
+              },
+              "volunteer_service": {
+                "recommended": true,
+                "description": "Community service required, with emphasis on commitment to patient communities through advocacy"
+              }
+            }
+          },
+          "program_statistics": {
+            "acceptance_rate": "10% (approximately 700 interviews from 7,000 applicants)",
+            "average_gpa": "Not published",
+            "average_mcat": "Not published",
+            "class_size": "Approximately 140 students",
+            "applications_received": "Approximately 7,000",
+            "interviews_conducted": "Approximately 700"
+          },
+          "program_curriculum": {
+            "duration_years": 4,
+            "clinical_rotations": "Core rotations with holistic assessment based on academics, clinical exposure, community service, research, and other activities",
+            "research_opportunities": "Research experience recommended and evaluated as part of holistic review. Students encouraged to engage in scholarly endeavors and research projects."
+          },
+          "technical_standards": {
+            "physical_requirements": "Must meet Technical Standards as outlined by the Liaison Committee on Medical Education",
+            "cognitive_requirements": "Demonstrated through academic excellence and holistic review of applications",
+            "behavioral_standards": "Professional behavior, ethical conduct, commitment to diversity, equity, and inclusion"
+          },
+          "residency_preferences": {
+            "in_state_preference": false,
+            "out_of_state_acceptance_rate": "No distinction made between in-state and out-of-state applicants"
+          },
+          "ideal_candidate_profile": {
+            "personal_attributes": [
+              "Academic excellence",
+              "Passion for clinical medicine",
+              "Commitment to patient communities",
+              "Leadership potential",
+              "Critical thinking and problem-solving abilities",
+              "Strong communication skills",
+              "Professional and ethical behavior",
+              "Commitment to advocacy"
+            ],
+            "recommended_experiences": [
+              "Clinical exposure and patient interaction",
+              "Research experience and scholarly endeavors",
+              "Community service and advocacy work",
+              "Experience with social determinants of health",
+              "Understanding of healthcare disparities",
+              "Leadership in extracurricular activities"
+            ]
+          },
+          "interview_process": {
+            "format": "Two 30-minute semi-structured traditional interviews with MD Admissions Committee members",
+            "virtual_or_in_person": "In person, spending a day meeting students and faculty",
+            "duration": "1 day",
+            "details": "Interviews assess core areas: academics, clinical exposure, community service, research, extracurricular activities, communication skills, and alignment with school's mission. Applications, letters, and secondary applications are evaluated fully by both interviewers. Weekly admissions committee meetings review each interviewed candidate."
+          }
+        }
+      ]
+    }
+  ]
+}

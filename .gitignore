@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment files
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+*.log
+validation_*.log
+crawl_*.log
+fetch_*.log
+processor_*.log
+url_*.log
+
+# Output and data files
+schools/*/crawler_results/
+schools/*/raw_content/
+schools/*/processed_data/
+schools/*/validation/
+schools/*/logs/
+schools/*/fetch_logs/
+schools/*/crawler_logs/
+schools/*/processor_logs/
+*.html
+demo_output.json

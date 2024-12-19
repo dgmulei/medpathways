@@ -1,0 +1,3716 @@
+Medical School Data Validation Report
+Generated: 2024-12-18T17:04:54.732245
+--------------------------------------------------------------------------------
+Total fields validated: 730
+Valid fields: 332
+Invalid fields: 398
+Validation rate: 45.48%
+--------------------------------------------------------------------------------
+Detailed Results:
+
+Field: institutions[0].institution_name
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Source text: Icahn School of Medicine at Mount Sinai...
+Notes: Exact match found
+
+Field: institutions[0].location
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Source text: New York, NY...
+Notes: Exact match found
+
+Field: institutions[0].website
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].contact_information.admissions_office_address
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].contact_information.phone_number
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Source text: 212-241-6696...
+Notes: Exact match found
+
+Field: institutions[0].contact_information.email_address
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].mission_statement
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].diversity_stats.underrepresented_students_percentage
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.international_students_percentage
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.gender_distribution.male
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.gender_distribution.female
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.gender_distribution.non_binary_or_other
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.white
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.asian
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.black_or_african_american
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.hispanic_or_latino
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.native_american_or_alaskan_native
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.native_hawaiian_or_pacific_islander
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.other_or_unknown
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.first_generation_students_percentage
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.lgbtq_representation.self_identified_percentage
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.lgbtq_representation.resources_available[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].diversity_stats.lgbtq_representation.resources_available[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].diversity_stats.lgbtq_representation.resources_available[2]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.description
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[2]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[3]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[4]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[5]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[6]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].program_name
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].program_type
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Source text: MD...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].program_website
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_deadlines.amcas_application_deadline
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_deadlines.secondary_application_deadline
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_deadlines.interview_dates
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_deadlines.decision_release_dates
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].subject
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].credits
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].lab_required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].course_format.online_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].course_format.community_college_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].course_format.ap_credits_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].recency_requirement
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].subject
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].credits
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].lab_required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].recommended_courses[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].course_format.online_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].course_format.community_college_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].course_format.ap_credits_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].recency_requirement
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].subject
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].credits
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].lab_required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].course_format.online_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].course_format.community_college_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].course_format.ap_credits_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].subject
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].credits
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].recommended_courses[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].recommended_courses[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].course_format.online_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].course_format.community_college_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].course_format.ap_credits_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].recency_requirement
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].subject
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].credits
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].course_format.online_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].course_format.community_college_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].course_format.ap_credits_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.gpa_policies.minimum_grade
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Source text: c...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.gpa_policies.pass_fail_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.gpa_policies.additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.diversity_in_courses
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[1]
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Source text: Public Health...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[2]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[3]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[4]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[5]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[6]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[7]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_deficiencies.policies_for_gaps
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_deficiencies.examples[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_deficiencies.examples[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.standardized_tests.mcat.required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.standardized_tests.mcat.average_score
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.standardized_tests.mcat.minimum_score
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.standardized_tests.mcat.recency_requirement
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.letters_of_recommendation.number_required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.letters_of_recommendation.type
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.letters_of_recommendation.specific_requirements
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.personal_statement.prompt
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.personal_statement.word_limit
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.clinical_experience.recommended_hours
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.clinical_experience.description
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.research_experience.recommended
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.research_experience.description
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.volunteer_service.recommended
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.volunteer_service.description
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].program_statistics.acceptance_rate
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].program_statistics.average_gpa
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].program_statistics.average_mcat
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].program_statistics.class_size
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].program_statistics.applications_received
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].program_statistics.interviews_conducted
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].program_curriculum.duration_years
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].program_curriculum.clinical_rotations
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].program_curriculum.research_opportunities
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].technical_standards.physical_requirements
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].technical_standards.cognitive_requirements
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].technical_standards.behavioral_standards
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].residency_preferences.in_state_preference
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].residency_preferences.out_of_state_acceptance_rate
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[2]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[3]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[4]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[5]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[6]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[7]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[2]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[3]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[4]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[5]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].interview_process.format
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].interview_process.virtual_or_in_person
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].interview_process.duration
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].programs[0].interview_process.details
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions
+Notes: No match found
+
+Field: institutions[0].institution_name
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: Icahn School of Medicine at Mount Sinai...
+Notes: Exact match found
+
+Field: institutions[0].location
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: New York, NY...
+Notes: Exact match found
+
+Field: institutions[0].website
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].contact_information.admissions_office_address
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].contact_information.phone_number
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: 212-241-6696...
+Notes: Exact match found
+
+Field: institutions[0].contact_information.email_address
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].mission_statement
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].diversity_stats.underrepresented_students_percentage
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.international_students_percentage
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.gender_distribution.male
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.gender_distribution.female
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.gender_distribution.non_binary_or_other
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.white
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.asian
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.black_or_african_american
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.hispanic_or_latino
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.native_american_or_alaskan_native
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.native_hawaiian_or_pacific_islander
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.other_or_unknown
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.first_generation_students_percentage
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.lgbtq_representation.self_identified_percentage
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.lgbtq_representation.resources_available[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].diversity_stats.lgbtq_representation.resources_available[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].diversity_stats.lgbtq_representation.resources_available[2]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.description
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[1]
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: holistic review of applicants...
+Notes: Exact match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[2]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[3]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[4]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[5]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[6]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].program_name
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].program_type
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: MD...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].program_website
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_deadlines.amcas_application_deadline
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: October 1...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_deadlines.secondary_application_deadline
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_deadlines.interview_dates
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_deadlines.decision_release_dates
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].subject
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: Biology...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].credits
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].lab_required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].course_format.online_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].course_format.community_college_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].course_format.ap_credits_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].recency_requirement
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].subject
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: chemistry...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].credits
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].lab_required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].recommended_courses[0]
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: biochemistry...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].course_format.online_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].course_format.community_college_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].course_format.ap_credits_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].recency_requirement
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].subject
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: Physics...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].credits
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].lab_required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].course_format.online_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].course_format.community_college_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].course_format.ap_credits_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].subject
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].credits
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].recommended_courses[0]
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: statistics...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].recommended_courses[1]
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: biostatistics...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].course_format.online_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].course_format.community_college_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].course_format.ap_credits_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].recency_requirement
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].subject
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].credits
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].course_format.online_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].course_format.community_college_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].course_format.ap_credits_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.gpa_policies.minimum_grade
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: c...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.gpa_policies.pass_fail_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.gpa_policies.additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.diversity_in_courses
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[0]
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: sociology...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[1]
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: Public Health...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[2]
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: political science...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[3]
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: global health...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[4]
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: bioethics...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[5]
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: urban studies...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[6]
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: history...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[7]
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: economics...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_deficiencies.policies_for_gaps
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_deficiencies.examples[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_deficiencies.examples[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.standardized_tests.mcat.required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.standardized_tests.mcat.average_score
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.standardized_tests.mcat.minimum_score
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.standardized_tests.mcat.recency_requirement
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.letters_of_recommendation.number_required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.letters_of_recommendation.type
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.letters_of_recommendation.specific_requirements
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.personal_statement.prompt
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.personal_statement.word_limit
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.clinical_experience.recommended_hours
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.clinical_experience.description
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.research_experience.recommended
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.research_experience.description
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.volunteer_service.recommended
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.volunteer_service.description
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].program_statistics.acceptance_rate
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].program_statistics.average_gpa
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].program_statistics.average_mcat
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].program_statistics.class_size
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].program_statistics.applications_received
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: approximately 7,000...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].program_statistics.interviews_conducted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: approximately 700...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].program_curriculum.duration_years
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].program_curriculum.clinical_rotations
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].program_curriculum.research_opportunities
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].technical_standards.physical_requirements
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].technical_standards.cognitive_requirements
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].technical_standards.behavioral_standards
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].residency_preferences.in_state_preference
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].residency_preferences.out_of_state_acceptance_rate
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[0]
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: academic excellence...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[1]
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: passion for clinical medicine...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[2]
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Source text: commitment to patient communities...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[3]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[4]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[5]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[6]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[7]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[2]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[3]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[4]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[5]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].interview_process.format
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].interview_process.virtual_or_in_person
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].interview_process.duration
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].programs[0].interview_process.details
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program
+Notes: No match found
+
+Field: institutions[0].institution_name
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Source text: Icahn School of Medicine at Mount Sinai...
+Notes: Exact match found
+
+Field: institutions[0].location
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Source text: New York, NY...
+Notes: Exact match found
+
+Field: institutions[0].website
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].contact_information.admissions_office_address
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].contact_information.phone_number
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Source text: 212-241-6696...
+Notes: Exact match found
+
+Field: institutions[0].contact_information.email_address
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].mission_statement
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].diversity_stats.underrepresented_students_percentage
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.international_students_percentage
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.gender_distribution.male
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.gender_distribution.female
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.gender_distribution.non_binary_or_other
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.white
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.asian
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.black_or_african_american
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.hispanic_or_latino
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.native_american_or_alaskan_native
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.native_hawaiian_or_pacific_islander
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.other_or_unknown
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.first_generation_students_percentage
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.lgbtq_representation.self_identified_percentage
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.lgbtq_representation.resources_available[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].diversity_stats.lgbtq_representation.resources_available[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].diversity_stats.lgbtq_representation.resources_available[2]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.description
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[2]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[3]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[4]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[5]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[6]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].program_name
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].program_type
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Source text: MD...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].program_website
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_deadlines.amcas_application_deadline
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_deadlines.secondary_application_deadline
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_deadlines.interview_dates
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_deadlines.decision_release_dates
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].subject
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Source text: biology...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].credits
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].lab_required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].course_format.online_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].course_format.community_college_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].course_format.ap_credits_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].recency_requirement
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].subject
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Source text: chemistry...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].credits
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].lab_required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].recommended_courses[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].course_format.online_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].course_format.community_college_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].course_format.ap_credits_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].recency_requirement
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].subject
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].credits
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].lab_required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].course_format.online_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].course_format.community_college_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].course_format.ap_credits_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].subject
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].credits
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].recommended_courses[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].recommended_courses[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].course_format.online_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].course_format.community_college_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].course_format.ap_credits_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].recency_requirement
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].subject
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].credits
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].course_format.online_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].course_format.community_college_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].course_format.ap_credits_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.gpa_policies.minimum_grade
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Source text: c...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.gpa_policies.pass_fail_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.gpa_policies.additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.diversity_in_courses
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[1]
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Source text: Public Health...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[2]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[3]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[4]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[5]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[6]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[7]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_deficiencies.policies_for_gaps
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_deficiencies.examples[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_deficiencies.examples[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.standardized_tests.mcat.required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.standardized_tests.mcat.average_score
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.standardized_tests.mcat.minimum_score
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.standardized_tests.mcat.recency_requirement
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.letters_of_recommendation.number_required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.letters_of_recommendation.type
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.letters_of_recommendation.specific_requirements
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.personal_statement.prompt
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.personal_statement.word_limit
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.clinical_experience.recommended_hours
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.clinical_experience.description
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.research_experience.recommended
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.research_experience.description
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.volunteer_service.recommended
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.volunteer_service.description
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].program_statistics.acceptance_rate
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].program_statistics.average_gpa
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].program_statistics.average_mcat
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].program_statistics.class_size
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].program_statistics.applications_received
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].program_statistics.interviews_conducted
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].program_curriculum.duration_years
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].program_curriculum.clinical_rotations
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].program_curriculum.research_opportunities
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].technical_standards.physical_requirements
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].technical_standards.cognitive_requirements
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].technical_standards.behavioral_standards
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].residency_preferences.in_state_preference
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].residency_preferences.out_of_state_acceptance_rate
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[2]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[3]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[4]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[5]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[6]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[7]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[2]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[3]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[4]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[5]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].interview_process.format
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].interview_process.virtual_or_in_person
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].interview_process.duration
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].programs[0].interview_process.details
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/faq
+Notes: No match found
+
+Field: institutions[0].institution_name
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Source text: Icahn School of Medicine at Mount Sinai...
+Notes: Exact match found
+
+Field: institutions[0].location
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Source text: New York, NY...
+Notes: Exact match found
+
+Field: institutions[0].website
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].contact_information.admissions_office_address
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].contact_information.phone_number
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Source text: 212-241-6696...
+Notes: Exact match found
+
+Field: institutions[0].contact_information.email_address
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].mission_statement
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].diversity_stats.underrepresented_students_percentage
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.international_students_percentage
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.gender_distribution.male
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.gender_distribution.female
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.gender_distribution.non_binary_or_other
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.white
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.asian
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.black_or_african_american
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.hispanic_or_latino
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.native_american_or_alaskan_native
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.native_hawaiian_or_pacific_islander
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.other_or_unknown
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.first_generation_students_percentage
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.lgbtq_representation.self_identified_percentage
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.lgbtq_representation.resources_available[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].diversity_stats.lgbtq_representation.resources_available[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].diversity_stats.lgbtq_representation.resources_available[2]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.description
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[2]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[3]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[4]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[5]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[6]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].program_name
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].program_type
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Source text: MD...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].program_website
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_deadlines.amcas_application_deadline
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Source text: October 1...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_deadlines.secondary_application_deadline
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_deadlines.interview_dates
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_deadlines.decision_release_dates
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].subject
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].credits
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].lab_required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].course_format.online_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].course_format.community_college_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].course_format.ap_credits_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].recency_requirement
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].subject
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].credits
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].lab_required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].recommended_courses[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].course_format.online_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].course_format.community_college_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].course_format.ap_credits_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].recency_requirement
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].subject
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].credits
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].lab_required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].course_format.online_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].course_format.community_college_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].course_format.ap_credits_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].subject
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].credits
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].recommended_courses[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].recommended_courses[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].course_format.online_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].course_format.community_college_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].course_format.ap_credits_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].recency_requirement
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].subject
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].credits
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].course_format.online_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].course_format.community_college_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].course_format.ap_credits_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.gpa_policies.minimum_grade
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Source text: c...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.gpa_policies.pass_fail_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.gpa_policies.additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.diversity_in_courses
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[1]
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Source text: Public Health...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[2]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[3]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[4]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[5]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[6]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[7]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_deficiencies.policies_for_gaps
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_deficiencies.examples[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_deficiencies.examples[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.standardized_tests.mcat.required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.standardized_tests.mcat.average_score
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.standardized_tests.mcat.minimum_score
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.standardized_tests.mcat.recency_requirement
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.letters_of_recommendation.number_required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.letters_of_recommendation.type
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.letters_of_recommendation.specific_requirements
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.personal_statement.prompt
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.personal_statement.word_limit
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.clinical_experience.recommended_hours
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.clinical_experience.description
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.research_experience.recommended
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.research_experience.description
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.volunteer_service.recommended
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.volunteer_service.description
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].program_statistics.acceptance_rate
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].program_statistics.average_gpa
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].program_statistics.average_mcat
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].program_statistics.class_size
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].program_statistics.applications_received
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].program_statistics.interviews_conducted
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].program_curriculum.duration_years
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].program_curriculum.clinical_rotations
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].program_curriculum.research_opportunities
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].technical_standards.physical_requirements
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].technical_standards.cognitive_requirements
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].technical_standards.behavioral_standards
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].residency_preferences.in_state_preference
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].residency_preferences.out_of_state_acceptance_rate
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[2]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[3]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[4]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[5]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[6]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[7]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[2]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[3]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[4]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[5]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].interview_process.format
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].interview_process.virtual_or_in_person
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].interview_process.duration
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].programs[0].interview_process.details
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/md-program/timelines
+Notes: No match found
+
+Field: institutions[0].institution_name
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Source text: Icahn School of Medicine at Mount Sinai...
+Notes: Exact match found
+
+Field: institutions[0].location
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Source text: New York, NY...
+Notes: Exact match found
+
+Field: institutions[0].website
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].contact_information.admissions_office_address
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].contact_information.phone_number
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Source text: 212-241-6696...
+Notes: Exact match found
+
+Field: institutions[0].contact_information.email_address
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].mission_statement
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].diversity_stats.underrepresented_students_percentage
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.international_students_percentage
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.gender_distribution.male
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.gender_distribution.female
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.gender_distribution.non_binary_or_other
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.white
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.asian
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.black_or_african_american
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.hispanic_or_latino
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.native_american_or_alaskan_native
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.native_hawaiian_or_pacific_islander
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.ethnic_distribution.other_or_unknown
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.first_generation_students_percentage
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.lgbtq_representation.self_identified_percentage
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].diversity_stats.lgbtq_representation.resources_available[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].diversity_stats.lgbtq_representation.resources_available[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].diversity_stats.lgbtq_representation.resources_available[2]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.description
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[2]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[3]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[4]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[5]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].diversity_and_inclusion_initiatives.resources[6]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].program_name
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].program_type
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Source text: MD...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].program_website
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_deadlines.amcas_application_deadline
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_deadlines.secondary_application_deadline
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_deadlines.interview_dates
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_deadlines.decision_release_dates
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].subject
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].credits
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].lab_required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].course_format.online_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].course_format.community_college_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].course_format.ap_credits_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].recency_requirement
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[0].additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].subject
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].credits
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].lab_required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].recommended_courses[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].course_format.online_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].course_format.community_college_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].course_format.ap_credits_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].recency_requirement
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[1].additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].subject
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].credits
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].lab_required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].course_format.online_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].course_format.community_college_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].course_format.ap_credits_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[2].additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].subject
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].credits
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].recommended_courses[0]
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Source text: statistics...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].recommended_courses[1]
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Source text: biostatistics...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].course_format.online_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].course_format.community_college_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].course_format.ap_credits_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].recency_requirement
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[3].additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].subject
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].credits
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].course_format.online_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].course_format.community_college_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].course_format.ap_credits_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_coursework[4].additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.gpa_policies.minimum_grade
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Source text: c...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.gpa_policies.pass_fail_accepted
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.gpa_policies.additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.diversity_in_courses
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[1]
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Source text: Public Health...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[2]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[3]
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Source text: global health...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[4]
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Source text: Bioethics...
+Notes: Exact match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[5]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[6]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.examples[7]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.breadth_of_education.additional_notes
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_deficiencies.policies_for_gaps
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_deficiencies.examples[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.prerequisite_deficiencies.examples[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.standardized_tests.mcat.required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.standardized_tests.mcat.average_score
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.standardized_tests.mcat.minimum_score
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.standardized_tests.mcat.recency_requirement
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.letters_of_recommendation.number_required
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.letters_of_recommendation.type
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.letters_of_recommendation.specific_requirements
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.personal_statement.prompt
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.personal_statement.word_limit
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.clinical_experience.recommended_hours
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.clinical_experience.description
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.research_experience.recommended
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.research_experience.description
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.volunteer_service.recommended
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].application_requirements.extracurricular_activities.volunteer_service.description
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].program_statistics.acceptance_rate
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].program_statistics.average_gpa
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].program_statistics.average_mcat
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].program_statistics.class_size
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].program_statistics.applications_received
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].program_statistics.interviews_conducted
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].program_curriculum.duration_years
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].program_curriculum.clinical_rotations
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].program_curriculum.research_opportunities
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].technical_standards.physical_requirements
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].technical_standards.cognitive_requirements
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].technical_standards.behavioral_standards
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].residency_preferences.in_state_preference
+Valid: True
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: Non-string or 'Not published' value
+
+Field: institutions[0].programs[0].residency_preferences.out_of_state_acceptance_rate
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[2]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[3]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[4]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[5]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[6]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.personal_attributes[7]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[0]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[1]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[2]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[3]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[4]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].ideal_candidate_profile.recommended_experiences[5]
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].interview_process.format
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].interview_process.virtual_or_in_person
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].interview_process.duration
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
+
+Field: institutions[0].programs[0].interview_process.details
+Valid: False
+Source URL: https://icahn.mssm.edu/education/admissions/apply
+Notes: No match found
